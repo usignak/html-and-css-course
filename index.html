@@ -4,9 +4,99 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Landing page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  
+  <header class="header">
+    <img src="images/logo.svg" alt="Logo Modern Chairs." />
+  </header>
+  <main class="main">
+    <section class="section hero">
+      <div class="section__wrapper hero__wrapper">
+        <h1 class="title title--h1">Modern Chairs Crafted with Love</h1>
+        <p>We love creating high quality and comfortable chairs</p>
+        <a href="#" class="btn">Discover our chair selection</a>
+      </div>
+    </section>
+    <section class="section section--light-color">
+      <div class="section__wrapper section__wrapper--large">
+        <h3 class="title title--h3">The selection</h3>
+        <h2 class="title title--h2">Our Chairs</h2>
+        <p class="text">We mostly sell one-off items. That means that we make one-of-a-kind furniture pieces so whoever buys it will have a unique item.</p>
+        <div class="boxes">
+          <div class="box">
+            <img src="images/furniture-1.jpg" alt="" />
+            <div class="number">01</div>
+            <h4 class="title title--h4">Tufted white leather sofa chair</h4>
+            <p class="description">This will fit perfectly in any beauty salon or  modern home thanks to its timeless design.</p>
+            <div class="price">$289</div>
+          </div>
+          <div class="box">
+            <img src="images/furniture-2.jpg" alt="" />
+            <div class="number">02</div>
+            <h4 class="title title--h4">Black and brown wooden chair</h4>
+            <p class="description">Both minimalistic and comfortable, this is a great choice for home or office.</p>
+            <div class="price">$99</div>
+          </div>
+          <div class="box">
+            <img src="images/furniture-3.jpg" alt="" />
+            <div class="number">03</div>
+            <h4 class="title title--h4">Rustic wooden bar stool</h4>
+            <p class="description">Made from solid beech wood, this piece will fit nicely in your rustic kitchen.</p>
+            <div class="price">$139</div>
+          </div>
+        </div>
+        <div class="info">Interested in our productS? <a href="#" class="link">Send us a message</a> or <a href="#" class="link">visit our store</a>.</div>
+      </div>
+    </section>
+    <section class="section section--dark-color">
+      <div class="section__wrapper section__wrapper--narrow">
+        <h3 class="title title--h3">Contact us</h3>
+        <h2 class="title title--h2">Let’s get in touch</h2>
+        <form action="" class="form">
+          <div class="form__item">
+            <label for="name">Name</label>
+            <input type="text" id="name" />
+          </div>
+          <div class="form__item">
+            <label for="email">Email address</label>
+            <input type="text" id="email" />
+          </div>
+          <div class="form__item">
+            <label for="message">Message</label>
+            <textarea id="message"></textarea>
+          </div>
+          <input type="submit" value="Send message" class="form-btn">
+          <p class="form-info">All fields are required. We’ll get back to you as soon as possible.</p>
+        </form>
+      </div>
+    </section>
+    <section class="section section--address">
+      <div class="section__wrapper section__wrapper--narrow">
+        <h3 class="tile title--h3">Visit our store</h3>
+        <div class="phone-number">(307) 555-0133</div>
+        <div class="address">2972 Westheimer Rd. Santa Ana, Illinois 85486</div>
+        <div class="social-media">
+          <a href="#">
+            <img src="images/icon-twitter.svg" alt="Twitter." />
+          </a>
+          <a href="#">
+            <img src="images/icon-facebook.svg" alt="Facebook." />
+          </a>
+          <a href="#">
+            <img src="images/icon-instagram.svg" alt="Instagram." />
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__wrapper">
+      (c) Copyright 2021 The Chair Company. All rights reserved. Built with <a href="#" class="link">WordPress</a> and <a href="#" class="link">Elementor</a>.
+    </div>
+  </footer>
 </body>
 </html>
